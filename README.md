@@ -2,7 +2,7 @@
 
 ## Coming Soon!
 
-This repository will soon host the **BlendX Dataset**, a comprehensive and detailed dataset designed for advancing research in task-oriented dialogue (TOD) systems, specifically focusing on multi-intent detection (MID) within utterances.
+The **BlendX Dataset** will soon be made available in this repository, offering a comprehensive and detailed dataset designed for enhancing research in task-oriented dialogue (TOD) systems.
 
 ### Abstract
 
