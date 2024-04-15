@@ -33,9 +33,9 @@ The repository contains the following datasets in the `v1.0/` directory:
     - Banking77: [paper](https://aclanthology.org/2020.nlp4convai-1.5/), [dataset](https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data)
     - CLINC150: [paper](https://aclanthology.org/D19-1131/), [dataset](https://github.com/clinc/oos-eval)
 
-- `MixX/` - Our version of MixX, incorporating a concatenation strategy from this [paper](https://aclanthology.org/2020.findings-emnlp.163/) and and including [datasets](https://github.com/LooperXX/AGIF), also includes datasets such as Banking77 and CLINC150.
+- `MixX/` - Our version of MixX, incorporating a concatenation strategy from this [paper](https://aclanthology.org/2020.findings-emnlp.163/) and including [datasets](https://github.com/LooperXX/AGIF), also includes datasets such as *Banking77* and *CLINC150*. Our version is tailored specifically for intent detection, maintaining the integrity of the original datasets.
 
-
+  
 ## Coming Soon!
 
 - 2024.04.15 **BlendX** is now available in this repository. We are also planning to release an updated version soon, which will include additional enhancements and features designed to further support research in TOD systems.
