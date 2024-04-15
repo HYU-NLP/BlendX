@@ -25,9 +25,9 @@ The BlendX dataset comprises a suite of refined datasets with a focus on multi-i
 ## Repository Structure
 This repository contains the following datasets:
 
-- `/v1.0` - Contains the implementation of baseline SOTA models for multi-intent detection.
-    - `/BlendX` - Our original dataset, BlendX, specifically crafted to challenge and refine multi-intent detection algorithms through complex concatenation scenarios.
-    - `/MixX` - Our extended version of the MixX dataset, implementing a concatenation strategy from this [paper](https://aclanthology.org/2020.findings-emnlp.163/) and [datasets](https://github.com/LooperXX/AGIF) with our additional datasets `Banking77`([paper](https://aclanthology.org/2020.nlp4convai-1.5/), [dataset](https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data)) and `CLINC150`([paper](https://aclanthology.org/D19-1131/), [dataset](https://github.com/clinc/oos-eval)) included.
+- `v1.0/` - Contains the implementation of baseline SOTA models for multi-intent detection.
+    - `v1.0/BlendX/` - Our original dataset, BlendX, specifically crafted to challenge and refine multi-intent detection algorithms through complex concatenation scenarios.
+    - `v1.0/MixX/` - Our extended version of the MixX dataset, implementing a concatenation strategy from this [paper](https://aclanthology.org/2020.findings-emnlp.163/) and [datasets](https://github.com/LooperXX/AGIF) with our additional datasets `Banking77`([paper](https://aclanthology.org/2020.nlp4convai-1.5/), [dataset](https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data)) and `CLINC150`([paper](https://aclanthology.org/D19-1131/), [dataset](https://github.com/clinc/oos-eval)) included.
 
 ## Coming Soon!
 
