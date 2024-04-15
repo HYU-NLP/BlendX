@@ -41,3 +41,9 @@ The repository contains the following datasets in the `v1.0/` directory:
 
 - 2024.04.15 **BlendX** is now available in this repository. We are also planning to release an updated version soon, which will include additional enhancements and features designed to further support research in TOD systems.
 - 2024.03.28 BlendX will soon be made available in this repository, offering a comprehensive and detailed dataset designed for enhancing research in task-oriented dialogue (TOD) systems.
+
+
+## License
+
+This repository and its contents are licensed under the **GNU General Public License v2.0**. By using, distributing, or contributing to this repository, you agree to the terms and conditions outlined in the LICENSE file.
+
