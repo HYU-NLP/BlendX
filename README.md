@@ -1,8 +1,13 @@
 # BlendX : Complex Multi-Intent Detection with Blended Patterns
 
-## Coming Soon!
 
-The **BlendX Dataset** will soon be made available in this repository, offering a comprehensive and detailed dataset designed for enhancing research in task-oriented dialogue (TOD) systems.
+<div align=center>
+  <img alt="Static Badge" src="https://img.shields.io/badge/BlendX-1.0-blue">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/HYU-NLP/BlendX">
+  <img alt="Github Created At" src="https://img.shields.io/github/created-at/HYU-NLP/BlendX">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HYU-NLP/BlendX">
+  <br>
+</div>
 
 ### Abstract
 
@@ -16,6 +21,15 @@ Task-oriented dialogue (TOD) systems are commonly designed with the presumption 
 
 The BlendX dataset comprises a suite of refined datasets with a focus on multi-intent detection in task-oriented dialogues. It introduces more diverse patterns of utterance formulation, challenging the existing MID models with its elevated complexity and diversity.
 
-### Access
 
-The dataset will be available for download directly from this repository. Detailed instructions for accessing and utilizing the dataset will be provided upon release.
+## Repository Structure
+This repository contains the following datasets:
+
+- `/v1.0` - Contains the implementation of baseline SOTA models for multi-intent detection.
+    - `/BlendX` - Our original dataset, BlendX, specifically crafted to challenge and refine multi-intent detection algorithms through complex concatenation scenarios.
+    - `/MixX` - Our extended version of the MixX dataset, implementing a concatenation strategy from this [paper](https://aclanthology.org/2020.findings-emnlp.163/) and [datasets](https://github.com/LooperXX/AGIF) with our additional datasets `Banking77`([paper](https://aclanthology.org/2020.nlp4convai-1.5/), [dataset](https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data)) and `CLINC150`([paper](https://aclanthology.org/D19-1131/), [dataset](https://github.com/clinc/oos-eval)) included.
+
+## Coming Soon!
+
+- 2024.04.15 The **BlendX Dataset** is now available in this repository. We are also planning to release an updated version soon, which will include additional enhancements and features designed to further support research in TOD systems.
+- 2024.03.28 The BlendX Dataset will soon be made available in this repository, offering a comprehensive and detailed dataset designed for enhancing research in task-oriented dialogue (TOD) systems.
