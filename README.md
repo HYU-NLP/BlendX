@@ -9,7 +9,7 @@
 </div>
 
 #### Official Repository for "BlendX : Complex Multi-Intent Detection with Blended Patterns." [[Paper(Arxiv)]](https://arxiv.org/abs/2403.18277)
-##### Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park and Taeuk Kim. *Accepted to LREC-COLING2024-long paper*. 
+##### Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park and Taeuk Kim. *Accepted to LREC-COLING2024 long paper*. 
 ---
 ### Abstract
 
