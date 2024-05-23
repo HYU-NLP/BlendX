@@ -8,7 +8,7 @@
   <br>
 </div>
 
-#### Official Repository for "BlendX : Complex Multi-Intent Detection with Blended Patterns." [[Paper(Arxiv)]](https://arxiv.org/abs/2403.18277)
+#### Official Repository for "BlendX : Complex Multi-Intent Detection with Blended Patterns." [[Paper(arXiv)]](https://arxiv.org/abs/2403.18277) [[Paper(ACL Anthology)]](https://aclanthology.org/2024.lrec-main.218/)
 ##### Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park and Taeuk Kim. *Accepted to LREC-COLING2024 long paper*. 
 ---
 ### Abstract
@@ -36,6 +36,34 @@ The repository contains the following datasets in the `v1.0/` directory:
 
 - `MixX/` - Our version of MixX, incorporating a concatenation strategy from this [paper](https://aclanthology.org/2020.findings-emnlp.163/) and including [datasets](https://github.com/LooperXX/AGIF), also includes datasets such as *Banking77* and *CLINC150*. Our version is tailored specifically for intent detection, maintaining the integrity of the original datasets.
 
+## Citation
+```{bibtex}
+@inproceedings{yoon-etal-2024-blendx-complex,
+    title = "{B}lend{X}: Complex Multi-Intent Detection with Blended Patterns",
+    author = "Yoon, Yejin  and
+      Lee, Jungyeon  and
+      Kim, Kangsan  and
+      Park, Chanhee  and
+      Kim, Taeuk",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.218",
+    pages = "2428--2439",
+    abstract = "Task-oriented dialogue (TOD) systems are commonly designed with the presumption that each utterance represents a single intent. However, this assumption may not accurately reflect real-world situations, where users frequently express multiple intents within a single utterance. While there is an emerging interest in multi-intent detection (MID), existing in-domain datasets such as MixATIS and MixSNIPS have limitations in their formulation. To address these issues, we present BlendX, a suite of refined datasets featuring more diverse patterns than their predecessors, elevating both its complexity and diversity. For dataset construction, we utilize both rule-based heuristics as well as a generative tool{---}OpenAI{'}s ChatGPT{---}which is augmented with a similarity-driven strategy for utterance selection. To ensure the quality of the proposed datasets, we also introduce three novel metrics that assess the statistical properties of an utterance related to word count, conjunction use, and pronoun usage. Extensive experiments on BlendX reveal that state-of-the-art MID models struggle with the challenges posed by the new datasets, highlighting the need to reexamine the current state of the MID field. The dataset is available at \url{https://github.com/HYU-NLP/BlendX}.",
+}
+```
+```
+Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park, and Taeuk Kim. 2024. BlendX: Complex Multi-Intent Detection with Blended Patterns. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pages 2428–2439, Torino, Italia. ELRA and ICCL.
+```
   
 ## Coming Soon!
 
