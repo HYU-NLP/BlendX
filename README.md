@@ -65,7 +65,7 @@ The repository contains the following datasets in the `v1.0/` directory:
 Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park, and Taeuk Kim. 2024. BlendX: Complex Multi-Intent Detection with Blended Patterns. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pages 2428–2439, Torino, Italia. ELRA and ICCL.
 ```
   
-## Coming Soon!
+## Log
 
 - 2024.05.26 **KoBlendX** is now available in the `v2.0/` directory. KoBlendX is the Korean translation of BlendX. Details will be published in an upcoming paper. (Submitted to KCC2024) The presentation materials and posters from the LREC-COLING2024 conference have also been added, along with the citation. 
 - 2024.04.15 **BlendX** is now available in this repository. We are also planning to release an updated version soon, which will include additional enhancements and features designed to further support research in TOD systems.
