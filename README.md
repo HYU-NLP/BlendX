@@ -52,7 +52,7 @@ The BlendX dataset comprises a suite of refined datasets with a focus on multi-i
 │       ├── MixBanking77/
 │       ├── MixCLINC150/
 │       └── MixSNIPS/
-├── v2.0/
+└── v2.0/
     ├── KoBlendX/
     │   ├── KoBlendATIS/
     │   ├── KoBlendBanking/
