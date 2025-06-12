@@ -40,27 +40,27 @@ The BlendX dataset comprises a suite of refined datasets with a focus on multi-i
 
 ## Repository Structure
 ```
-v1.0/
-├── BlendX/
-│   ├── BlendATIS/
-│   ├── BlendBanking77/
-│   ├── BlendCLINC150/
-│   └── BlendSNIPS/
-├── MixX/
-│   ├── MixATIS/
-│   ├── MixBanking77/
-│   ├── MixCLINC150/
-│   └── MixSNIPS/
-
-v2.0/
-├── KoBlendX/
-│   ├── KoBlendATIS/
-│   ├── KoBlendBanking/
-│   └── KoBlendCLINC/
-└── KoMixX/
-    ├── KoMixATIS/
-    ├── KoMixBanking/
-    └── KoMixCLINC/
+./
+├── v1.0/
+│   ├── BlendX/
+│   │   ├── BlendATIS/
+│   │   ├── BlendBanking77/
+│   │   ├── BlendCLINC150/
+│   │   └── BlendSNIPS/
+│   └── MixX/
+│       ├── MixATIS/
+│       ├── MixBanking77/
+│       ├── MixCLINC150/
+│       └── MixSNIPS/
+├── v2.0/
+    ├── KoBlendX/
+    │   ├── KoBlendATIS/
+    │   ├── KoBlendBanking/
+    │   └── KoBlendCLINC/
+    └── KoMixX/
+        ├── KoMixATIS/
+        ├── KoMixBanking/
+        └── KoMixCLINC/
 ```
 The repository contains the following datasets in the `v1.0/` directory:
 
