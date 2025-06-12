@@ -9,7 +9,20 @@
 </div>
 
 #### Official Repository for "BlendX : Complex Multi-Intent Detection with Blended Patterns." [[Paper(ACL Anthology)]](https://aclanthology.org/2024.lrec-main.218/) [[Paper(arXiv)]](https://arxiv.org/abs/2403.18277)
-##### Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park and Taeuk Kim. *Accepted to LREC-COLING2024 long paper*. 
+##### Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park and Taeuk Kim. *Accepted to LREC-COLING2024 long paper*.
+---
+### 🆕 Hugging Face Datasets Hub
+
+BlendX is now available via Hugging Face Datasets! Check it out here: [HYU-NLP/BlendX](https://huggingface.co/datasets/HYU-NLP/BlendX)
+
+You can easily load the dataset using HF `datasets` library: 
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("HYU-NLP/BlendX", data_dir="v1.0/BlendX/BlendATIS")
+print(dataset["test"][0])
+```
 ---
 ### Abstract
 
@@ -23,9 +36,32 @@ Task-oriented dialogue (TOD) systems are commonly designed with the presumption 
 
 The BlendX dataset comprises a suite of refined datasets with a focus on multi-intent detection in task-oriented dialogues. It introduces more diverse patterns of utterance formulation, challenging the existing MID models with its elevated complexity and diversity.
 
+---
 
 ## Repository Structure
+```
+v1.0/
+├── BlendX/
+│   ├── BlendATIS/
+│   ├── BlendBanking77/
+│   ├── BlendCLINC150/
+│   └── BlendSNIPS/
+├── MixX/
+│   ├── MixATIS/
+│   ├── MixBanking77/
+│   ├── MixCLINC150/
+│   └── MixSNIPS/
 
+v2.0/
+├── KoBlendX/
+│   ├── KoBlendATIS/
+│   ├── KoBlendBanking/
+│   └── KoBlendCLINC/
+└── KoMixX/
+    ├── KoMixATIS/
+    ├── KoMixBanking/
+    └── KoMixCLINC/
+```
 The repository contains the following datasets in the `v1.0/` directory:
 
 - `BlendX/` - Our enhanced multi-intent dataset, BlendX, created by concatenating these single-intent utterance data sources:
@@ -67,6 +103,7 @@ Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park, and Taeuk Kim. 2024. BlendX
   
 ## Log
 
+- 2025.06.12 Uploaded to HuggingFace Datasets Hub: **BlendX**, **MixX**, **KoBlendX**, **KoMixX**
 - 2024.05.26 **KoBlendX** is now available in the `v2.0/` directory. KoBlendX is the Korean translation of BlendX. Details will be published in an upcoming paper. (Submitted to KCC2024) The presentation materials and posters from the LREC-COLING2024 conference have also been added, along with the citation. 
 - 2024.04.15 **BlendX** is now available in this repository. We are also planning to release an updated version soon, which will include additional enhancements and features designed to further support research in TOD systems.
 - 2024.03.28 BlendX will soon be made available in this repository, offering a comprehensive and detailed dataset designed for enhancing research in task-oriented dialogue (TOD) systems.
