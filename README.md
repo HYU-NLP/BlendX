@@ -1,7 +1,7 @@
 # BlendX : Complex Multi-Intent Detection with Blended Patterns
 
 <div align=center>
-  <img alt="Static Badge" src="https://img.shields.io/badge/BlendX-1.0-blue">
+  <img alt="Static Badge" src="https://img.shields.io/badge/BlendX-2.0-blue">
   <img alt="GitHub License" src="https://img.shields.io/github/license/HYU-NLP/BlendX">
   <img alt="Github Created At" src="https://img.shields.io/github/created-at/HYU-NLP/BlendX">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HYU-NLP/BlendX">
