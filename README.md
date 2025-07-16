@@ -36,6 +36,13 @@ Task-oriented dialogue (TOD) systems are commonly designed with the presumption 
 
 The BlendX dataset comprises a suite of refined datasets with a focus on multi-intent detection in task-oriented dialogues. It introduces more diverse patterns of utterance formulation, challenging the existing MID models with its elevated complexity and diversity.
 
+### 📄 Documentation
+
+In the `docs/` directory, you can find:
+- `blendx-poster.pdf`: Poster presented at LREC-COLING 2024
+- `blendx-slides.pdf`: Presentation slides from LREC-COLING 2024
+- `koblendx-paper.pdf`: Paper on KoBlendX, accepted to KCC2024 (Outstanding Paper Award)
+
 ---
 
 ## Repository Structure
@@ -103,6 +110,7 @@ Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park, and Taeuk Kim. 2024. BlendX
   
 ## Log
 
+- 2025.07.16 Renamed documentation files for clarity and added the **KoBlendX** paper (Accepted to KCC2024 long paper, Outstanding Paper Award).
 - 2025.06.12 Uploaded to HuggingFace Datasets Hub: **BlendX**, **MixX**, **KoBlendX**, **KoMixX**
 - 2024.05.26 **KoBlendX** is now available in the `v2.0/` directory. KoBlendX is the Korean translation of BlendX. Details will be published in an upcoming paper. (Submitted to KCC2024) The presentation materials and posters from the LREC-COLING2024 conference have also been added, along with the citation. 
 - 2024.04.15 **BlendX** is now available in this repository. We are also planning to release an updated version soon, which will include additional enhancements and features designed to further support research in TOD systems.
