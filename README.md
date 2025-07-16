@@ -36,18 +36,12 @@ Task-oriented dialogue (TOD) systems are commonly designed with the presumption 
 
 The BlendX dataset comprises a suite of refined datasets with a focus on multi-intent detection in task-oriented dialogues. It introduces more diverse patterns of utterance formulation, challenging the existing MID models with its elevated complexity and diversity.
 
-### 📄 Documentation
-
-In the `docs/` directory, you can find:
-- `blendx-poster.pdf`: Poster presented at LREC-COLING 2024
-- `blendx-slides.pdf`: Presentation slides from LREC-COLING 2024
-- `koblendx-paper.pdf`: Paper on KoBlendX, accepted to KCC2024 (Outstanding Paper Award)
-
 ---
 
 ## Repository Structure
 ```
 ./
+├── docs/
 ├── v1.0/
 │   ├── BlendX/
 │   │   ├── BlendATIS/
@@ -69,17 +63,28 @@ In the `docs/` directory, you can find:
         ├── KoMixBanking/
         └── KoMixCLINC/
 ```
-The repository contains the following datasets in the `v1.0/` directory:
+The repository contains the following datasets and documentation organized under the `v1.0/` and `v2.0/` directories:
 
-- `BlendX/` - Our enhanced multi-intent dataset, BlendX, created by concatenating these single-intent utterance data sources:
-    - SNIPS: [paper](https://arxiv.org/abs/1805.10190v3), [dataset](https://github.com/sonos/nlu-benchmark)
-    - ATIS: [paper](https://aclanthology.org/H90-1021/), [dataset](https://github.com/Microsoft/CNTK/tree/master/Examples/LanguageUnderstanding/ATIS/Data)
-    - Banking77: [paper](https://aclanthology.org/2020.nlp4convai-1.5/), [dataset](https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data)
-    - CLINC150: [paper](https://aclanthology.org/D19-1131/), [dataset](https://github.com/clinc/oos-eval)
+- `v1.0/` – English datasets
+  - `BlendX/` – Our enhanced multi-intent dataset created by concatenating these single-intent utterance data sources:
+      - SNIPS: [paper](https://arxiv.org/abs/1805.10190v3), [dataset](https://github.com/sonos/nlu-benchmark)
+      - ATIS: [paper](https://aclanthology.org/H90-1021/), [dataset](https://github.com/Microsoft/CNTK/tree/master/Examples/LanguageUnderstanding/ATIS/Data)
+      - Banking77: [paper](https://aclanthology.org/2020.nlp4convai-1.5/), [dataset](https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data)
+      - CLINC150: [paper](https://aclanthology.org/D19-1131/), [dataset](https://github.com/clinc/oos-eval)
 
-- `MixX/` - Our version of MixX, incorporating a concatenation strategy from this [paper](https://aclanthology.org/2020.findings-emnlp.163/) and including [datasets](https://github.com/LooperXX/AGIF), also includes datasets such as *Banking77* and *CLINC150*. Our version is tailored specifically for intent detection, maintaining the integrity of the original datasets.
+  - `MixX/` – Our version of MixX, incorporating a concatenation strategy from this [paper](https://aclanthology.org/2020.findings-emnlp.163/) and [datasets](https://github.com/LooperXX/AGIF), also including *Banking77* and *CLINC150*. This version is tailored specifically for intent detection, maintaining the integrity of the original datasets.
+
+- `v2.0/` – Korean extensions
+  - `KoBlendX/` – The Korean translation of BlendX, created from ATIS, Banking77, and CLINC150  
+  - `KoMixX/` – The Korean version of MixX, constructed in a similar manner
+
+- `docs/` – Documentation  
+  - `blendx-poster.pdf`: Poster presented at **LREC-COLING 2024**  
+  - `blendx-slides.pdf`: Presentation slides from **LREC-COLING 2024**  
+  - `koblendx-paper.pdf`: Paper on **KoBlendX**, accepted to **KCC2024 long paper** (*Outstanding Paper Award*)
 
 ## Citation
+### BlendX
 ```{bibtex}
 @inproceedings{yoon-etal-2024-blendx-complex,
     title = "{B}lend{X}: Complex Multi-Intent Detection with Blended Patterns",
@@ -106,6 +111,29 @@ The repository contains the following datasets in the `v1.0/` directory:
 ```
 ```
 Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park, and Taeuk Kim. 2024. BlendX: Complex Multi-Intent Detection with Blended Patterns. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pages 2428–2439, Torino, Italia. ELRA and ICCL.
+```
+
+### KoBlendX
+```{bibtex}
+@inproceedings{yoon-etal-2024-koblendx,
+  title        = "{한국어 발화의 다중 의도 감지 연구}",
+  author       = "윤예진 and 김지수 and 임정민 and 이정연 and 김태욱",
+  booktitle    = "한국정보과학회 학술발표논문집",
+  year         = "2024",
+  pages        = "465--467"
+}
+```
+```{bibtex}
+@inproceedings{yoon-etal-2024-koblendx,
+  title     = "Multi-Intent Detection for Korean Spoken Language",
+  author    = "Yoon, Yejin and Kim, Jisoo and Lim, Jungmin and Lee, Jungyeon and Kim, Taeuk",
+  booktitle = "Proceedings of the 2024 Korea Computer Congress (KCC)",
+  year      = "2024",
+  pages     = "465--467"
+}
+```
+```
+Yejin Yoon, Jisoo Kim, Jungmin Lim, Jungyeon Lee, and Taeuk Kim. 2024. 한국어 발화의 다중 의도 감지 연구. In 한국정보과학회 학술발표논문집, pages 465–467.
 ```
   
 ## Log
