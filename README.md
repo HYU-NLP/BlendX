@@ -65,7 +65,7 @@ The BlendX dataset comprises a suite of refined datasets with a focus on multi-i
 ```
 
 <details> 
-  <summary> 📂 The repository contains the following datasets and documentation organized under the `v1.0/` and `v2.0/` directories: </summary>
+  <summary> 📂 The repository contains the following datasets and documentation organized under the <code>v1.0/</code> and <code>v2.0/</code> directories: </summary>
 
 - `v1.0/` – English datasets
   - `BlendX/` – Our enhanced multi-intent dataset created by concatenating these single-intent utterance data sources:
