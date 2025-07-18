@@ -63,7 +63,9 @@ The BlendX dataset comprises a suite of refined datasets with a focus on multi-i
         ├── KoMixBanking/
         └── KoMixCLINC/
 ```
-The repository contains the following datasets and documentation organized under the `v1.0/` and `v2.0/` directories:
+
+<details> 
+  <summary> 📂 The repository contains the following datasets and documentation organized under the `v1.0/` and `v2.0/` directories: </summary>
 
 - `v1.0/` – English datasets
   - `BlendX/` – Our enhanced multi-intent dataset created by concatenating these single-intent utterance data sources:
@@ -82,9 +84,12 @@ The repository contains the following datasets and documentation organized under
   - `blendx-poster.pdf`: Poster presented at **LREC-COLING 2024**  
   - `blendx-slides.pdf`: Presentation slides from **LREC-COLING 2024**  
   - `koblendx-paper.pdf`: Paper on **KoBlendX**, accepted to **KCC2024 long paper** (*Outstanding Paper Award*)
+</details>
 
 ## Citation
-### BlendX
+<details> 
+  <summary><strong> BlendX </strong></summary>
+  
 ```{bibtex}
 @inproceedings{yoon-etal-2024-blendx-complex,
     title = "{B}lend{X}: Complex Multi-Intent Detection with Blended Patterns",
@@ -113,7 +118,10 @@ The repository contains the following datasets and documentation organized under
 Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park, and Taeuk Kim. 2024. BlendX: Complex Multi-Intent Detection with Blended Patterns. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pages 2428–2439, Torino, Italia. ELRA and ICCL.
 ```
 
-### KoBlendX
+</details>
+<details> 
+  <summary><strong> KoBlendX </strong></summary>
+  
 ```{bibtex}
 @inproceedings{yoon-etal-2024-koblendx,
   title        = "{한국어 발화의 다중 의도 감지 연구}",
@@ -135,6 +143,8 @@ Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park, and Taeuk Kim. 2024. BlendX
 ```
 Yejin Yoon, Jisoo Kim, Jungmin Lim, Jungyeon Lee, and Taeuk Kim. 2024. 한국어 발화의 다중 의도 감지 연구. In 한국정보과학회 학술발표논문집, pages 465–467.
 ```
+
+</details>
   
 ## Log
 
