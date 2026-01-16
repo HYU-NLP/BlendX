@@ -8,7 +8,7 @@
   <br>
 </div>
 
-#### Official Repository for "BlendX : Complex Multi-Intent Detection with Blended Patterns." [[Paper(ACL Anthology)]](https://aclanthology.org/2024.lrec-main.218/) [[Paper(arXiv)]](https://arxiv.org/abs/2403.18277)
+#### Official Repository for "BlendX : Complex Multi-Intent Detection with Blended Patterns." [[Project Page]](https://still-with-you.github.io/pages/blendx/) [[Paper(ACL Anthology)]](https://aclanthology.org/2024.lrec-main.218/) [[Paper(arXiv)]](https://arxiv.org/abs/2403.18277)
 ##### Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park and Taeuk Kim. *Accepted to LREC-COLING2024 long paper*.
 ---
 ### 🆕 Hugging Face Datasets Hub
@@ -158,4 +158,3 @@ Yejin Yoon, Jisoo Kim, Jungmin Lim, Jungyeon Lee, and Taeuk Kim. 2024. 한국어
 ## License
 
 This repository and its contents are licensed under the **GNU General Public License v2.0**. By using, distributing, or contributing to this repository, you agree to the terms and conditions outlined in the LICENSE file.
-
