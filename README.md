@@ -5,10 +5,16 @@
   <img alt="GitHub License" src="https://img.shields.io/github/license/HYU-NLP/BlendX">
   <img alt="Github Created At" src="https://img.shields.io/github/created-at/HYU-NLP/BlendX">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/HYU-NLP/BlendX">
+  <a href="https://still-with-you.github.io/pages/blendx/" target="_blank"><img alt="Project Page" src="https://img.shields.io/badge/Project_Page-Visit-blue"></a>
   <br>
 </div>
 
-#### Official Repository for "BlendX : Complex Multi-Intent Detection with Blended Patterns." [[Project Page]](https://still-with-you.github.io/pages/blendx/) [[Paper(ACL Anthology)]](https://aclanthology.org/2024.lrec-main.218/) [[Paper(arXiv)]](https://arxiv.org/abs/2403.18277)
+#### Official Repository for "BlendX : Complex Multi-Intent Detection with Blended Patterns."
+<div align="center">
+  <a href="https://still-with-you.github.io/pages/blendx/">Project Page</a> ·
+  <a href="https://aclanthology.org/2024.lrec-main.218/">Paper (ACL Anthology)</a> ·
+  <a href="https://arxiv.org/abs/2403.18277">Paper (arXiv)</a>
+</div>
 ##### Yejin Yoon, Jungyeon Lee, Kangsan Kim, Chanhee Park and Taeuk Kim. *Accepted to LREC-COLING2024 long paper*.
 ---
 ### 🆕 Hugging Face Datasets Hub
